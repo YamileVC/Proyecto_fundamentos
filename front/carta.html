@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cafetería Latte Love</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg position-fixed w-100"
+    style="z-index: 1111; background-color: rgba(209, 107, 168, 0.7);">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.jpg" alt="logo" width="40" height="30">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="carta.html">Carta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nuevo-producto.html">Agregar producto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <div class="container">
+      <section class="textos-header">
+        <div class="">
+          <img src="img/logo.jpg" alt="" style="max-height: 120px;">
+          <h1>Cafetería <br> Latte Love</h1>
+        </div>
+      </section>
+    </div>
+    <div class="wave" style="height: 150px; overflow: hidden;">
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+        <path d="M-8.74,25.17 C134.02,144.58 317.43,-23.17 507.62,76.48 L501.97,151.48 L0.00,150.00 Z"
+          style="stroke: none; fill: #2b2b2b;"></path>
+      </svg>
+    </div>
+  </header>
+  <main>
+    <div class="container pb-5">
+      <h2 class="titulo-main">Nuestra carta</h2>
+      <div id="reviews-container" class="row row-cols-1 g-3">
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Cafetería Latte Love. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

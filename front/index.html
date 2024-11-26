@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafetería Latte Love</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg position-fixed w-100"
+    style="z-index: 1111; background-color: rgba(209, 107, 168, 0.7);">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.jpg" alt="logo" width="40" height="30">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="carta.html">Carta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nuevo-producto.html">Agregar producto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <div class="container">
+      <section class="textos-header">
+        <div class="">
+          <img src="img/logo.jpg" alt="" style="max-height: 120px;">
+          <h1>Cafetería <br> Latte Love</h1>
+        </div>
+      </section>
+    </div>
+    <div class="wave" style="height: 150px; overflow: hidden;">
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+        <path d="M-8.74,25.17 C134.02,144.58 317.43,-23.17 507.62,76.48 L501.97,151.48 L0.00,150.00 Z"
+          style="stroke: none; fill: #2b2b2b;"></path>
+      </svg>
+    </div>
+  </header>
+  <main>
+    <div class="container pb-5">
+      <section>
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="img/slider1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider3.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+      <section class="py-5">
+        <h2 class="titulo-main">Quiénes somos</h2>
+        <div class="row row-cols-md-3 g-5 text-center">
+          <div class="col">
+            <h3 class="">NUESTROS PROPIOS INSUMOS</h3>
+            <p>
+              En Latte Love te ofrecemos productos de alta calidad hechos con pasión. Nuestro café, 100%
+              peruano, garantiza un sabor excepcional en cada taza. Disfruta también de nuestros panes y
+              repostería frescos, horneados a diario, elaborada con ingredientes naturales. Cada detalle
+              está pensado para brindarte una experiencia única.
+            </p>
+          </div>
+          <div class="col">
+            <h3>UN LUGAR EXCEPCIONAL</h3>
+            <p>
+              La decoración e iluminación cumple un rol importante, no solo por lo estético, sino también,
+              tiene un papel fundamental en la comodidad de nuestros clientes. Una barra de exhibición con
+              productos frescos, mensajes de aliento en distintos murales, y una cocina visible, son parte
+              de la composición de nuestros locales.
+            </p>
+          </div>
+          <div class="col">
+            <h3>SERVICIO</h3>
+            <br>
+            <p>
+              Detrás del servicio que brindamos hay un trabajo en equipo y la mejor predisposición para
+              hacer lo que tanto nos apasiona: Servir. Buscamos en todo momento que en cada contacto con
+              nuestros clientes se refleje la pasión y amabilidad con la que se desenvuelven todos
+              nuestros colaboradores
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="py-5">
+        <h2 class="titulo-main">Nuestros platos</h2>
+        <div class="row g-5">
+          <div class="col">
+            <p>
+              Descubre la esencia de nuestro café en cada sorbo. En ‘Nuestros Productos’, seleccionamos los granos más
+              finos y los combinamos con recetas únicas para ofrecerte bebidas y sabores que realzan la tradición y la
+              innovación. Desde nuestras clásicas preparaciones hasta opciones modernas, aquí encontrarás algo perfecto
+              para cada momento. ¡Déjate sorprender!
+            </p>
+            <a href="carta.html" class="btn btn-primary">Ver la carta</a>
+          </div>
+          <div class="col">
+            <img src="img/info.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Cafetería Latte Love. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    });
+  </script>
+</body>
+
+</html>
